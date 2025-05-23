@@ -14,7 +14,9 @@
 
 项目提供了训练使用的数据集（已标注完成，存放于bvn文件夹中）、应用开发的完整代码、界面的UI文件、训练好的模型。
 
-训练模型的数据集来源于“广东工业智造大数据创新大赛——智能算法赛”https://tianchi.aliyun.com/competition/entrance/231682/information?from=oldUrl。选择了4种缺损类型，分别为**擦花cahua**、**碰凹pengao**、**碰伤pengshang**、**凸粉tufen**，预处理后得到一共1050张图片。
+训练模型的数据集来源于“广东工业智造大数据创新大赛——智能算法赛”https://tianchi.aliyun.com/competition/entrance/231682/information?from=oldUrl。
+
+选择了4种缺损类型，分别为**擦花cahua**、**碰凹pengao**、**碰伤pengshang**、**凸粉tufen**，预处理后得到一共1050张图片。
 
 项目结构
 
