@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget_3</class>
+ <widget class="QWidget" name="widget_3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>874</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>主界面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #deffe1;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>2</horstretch>
+       <verstretch>2</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>2</horstretch>
+          <verstretch>2</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+   
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    
+    
+}</string>
+        </property>
+        <property name="text">
+         <string>工业异常零件识别</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>2</horstretch>
+       <verstretch>2</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>50</number>
+      </property>
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="topMargin">
+       <number>80</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>100</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="runPictureBtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>3</horstretch>
+          <verstretch>3</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4CAF50;  /* 绿色 - 正常状态 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 20px;
+font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45a049;  /* 深绿色 - 悬停 */
+    transform: scale(1.02);     /* 轻微放大（需代码实现动画） */
+}</string>
+        </property>
+        <property name="text">
+         <string>图片处理</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="runVideoBtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>3</horstretch>
+          <verstretch>3</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4CAF50;  /* 绿色 - 正常状态 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 20px;
+font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45a049;  /* 深绿色 - 悬停 */
+    transform: scale(1.02);     /* 轻微放大（需代码实现动画） */
+}</string>
+        </property>
+        <property name="text">
+         <string>视频流处理</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="runFolderBtn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>3</horstretch>
+          <verstretch>3</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #4CAF50;  /* 绿色 - 正常状态 */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 20px;
+font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45a049;  /* 深绿色 - 悬停 */
+    transform: scale(1.02);     /* 轻微放大（需代码实现动画） */
+}</string>
+        </property>
+        <property name="text">
+         <string>文件夹处理</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
